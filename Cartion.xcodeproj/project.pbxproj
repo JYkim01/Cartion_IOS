@@ -3,19 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		318B44268DCB9349EF943A70 /* Pods_Cartion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A972AD5C580CB5BC0930C /* Pods_Cartion.framework */; };
+		47513361F59E47824823F453 /* Pods_Cartion_CartionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A845525A4A69DAD71B787B0 /* Pods_Cartion_CartionUITests.framework */; };
+		571B03C325A2BDD30011BFE4 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B03C225A2BDD30011BFE4 /* Banner.swift */; };
+		571B03C825A2F2B00011BFE4 /* HornViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B03C725A2F2B00011BFE4 /* HornViewController.swift */; };
+		571B03D925A414920011BFE4 /* Horn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B03D825A414920011BFE4 /* Horn.swift */; };
+		571B03E625A4BB050011BFE4 /* scd8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03DD25A4BB050011BFE4 /* scd8.otf */; };
+		571B03E725A4BB050011BFE4 /* scd5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03DE25A4BB050011BFE4 /* scd5.otf */; };
+		571B03E825A4BB050011BFE4 /* scd9.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03DF25A4BB050011BFE4 /* scd9.otf */; };
+		571B03E925A4BB050011BFE4 /* scd7.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03E025A4BB050011BFE4 /* scd7.otf */; };
+		571B03EA25A4BB050011BFE4 /* scd1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03E125A4BB050011BFE4 /* scd1.otf */; };
+		571B03EB25A4BB050011BFE4 /* scd3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03E225A4BB050011BFE4 /* scd3.otf */; };
+		571B03EC25A4BB050011BFE4 /* scd4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03E325A4BB050011BFE4 /* scd4.otf */; };
+		571B03ED25A4BB050011BFE4 /* scd6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03E425A4BB050011BFE4 /* scd6.otf */; };
+		571B03EE25A4BB050011BFE4 /* scd2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 571B03E525A4BB050011BFE4 /* scd2.otf */; };
+		571B03F625A735460011BFE4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B03F525A735460011BFE4 /* Category.swift */; };
+		571B03FB25A73BC80011BFE4 /* CustomHorn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B03FA25A73BC80011BFE4 /* CustomHorn.swift */; };
+		579301D325C5701600CADC16 /* CouponDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579301D225C5701600CADC16 /* CouponDialogController.swift */; };
+		579301D825D521FC00CADC16 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 579301D725D521FC00CADC16 /* intro.mp4 */; };
+		579301DD25D5222D00CADC16 /* IntroVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579301DC25D5222D00CADC16 /* IntroVideoController.swift */; };
+		579301E225D63F4100CADC16 /* AppInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579301E125D63F4100CADC16 /* AppInfoController.swift */; };
+		579301FC25D8EF9E00CADC16 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579301FB25D8EF9E00CADC16 /* Coupon.swift */; };
+		579D9CEE259C2D1B00371F53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D9CED259C2D1B00371F53 /* User.swift */; };
+		57AE452C25A85BBB0011E8BF /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE452B25A85BBB0011E8BF /* FAQViewController.swift */; };
+		57AE453925ABF29F0011E8BF /* AppManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE453825ABF29F0011E8BF /* AppManual.swift */; };
+		57AE453E25ABF4CF0011E8BF /* AppManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE453D25ABF4CF0011E8BF /* AppManualViewController.swift */; };
+		57AE454325AC35700011E8BF /* CartionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE454225AC35700011E8BF /* CartionInfoViewController.swift */; };
+		57AE454825AC37ED0011E8BF /* CartionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE454725AC37ED0011E8BF /* CartionInfo.swift */; };
+		57AE454D25AD3B970011E8BF /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE454C25AD3B970011E8BF /* MyPageViewController.swift */; };
+		57AE455225AFE0900011E8BF /* MobileSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE455125AFE0900011E8BF /* MobileSwitch.swift */; };
+		57AE455725B168220011E8BF /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE455625B168220011E8BF /* UserInfo.swift */; };
+		57C123F5254157CC00907B42 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C123F4254157CC00907B42 /* LoginViewController.swift */; };
+		57C123FA2541655500907B42 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C123F92541655500907B42 /* Login.swift */; };
+		57C18CD225B4ADE1000D6BA5 /* SafeDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C18CD125B4ADE1000D6BA5 /* SafeDialogViewController.swift */; };
+		57C18CD725B4B269000D6BA5 /* LostDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C18CD625B4B269000D6BA5 /* LostDialogViewController.swift */; };
+		57C18CE425B6D6F5000D6BA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C18CE325B6D6F5000D6BA5 /* GoogleService-Info.plist */; };
+		57C18D0F25B6E5EC000D6BA5 /* SignUpCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C18D0E25B6E5EC000D6BA5 /* SignUpCheck.swift */; };
+		57C18D2525B74BF2000D6BA5 /* SwitchChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C18D2425B74BF1000D6BA5 /* SwitchChange.swift */; };
+		57C18D2D25B7564A000D6BA5 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C18D2C25B7564A000D6BA5 /* Notice.swift */; };
+		57C18D3225B75DA9000D6BA5 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C18D3125B75DA9000D6BA5 /* FAQ.swift */; };
+		57C18D3725B7630B000D6BA5 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C18D3625B7630B000D6BA5 /* NoticeViewController.swift */; };
+		57CC100B255B672900F60C99 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC100A255B672900F60C99 /* SignUpViewController.swift */; };
+		57CC1010255B69F400F60C99 /* UserAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC100F255B69F400F60C99 /* UserAuthViewController.swift */; };
 		57EFE9742512EE9100556C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFE9732512EE9100556C2A /* AppDelegate.swift */; };
 		57EFE9762512EE9100556C2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFE9752512EE9100556C2A /* SceneDelegate.swift */; };
-		57EFE9782512EE9100556C2A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFE9772512EE9100556C2A /* FirstViewController.swift */; };
-		57EFE97A2512EE9100556C2A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFE9792512EE9100556C2A /* SecondViewController.swift */; };
+		57EFE9782512EE9100556C2A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFE9772512EE9100556C2A /* HomeController.swift */; };
 		57EFE97D2512EE9100556C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EFE97B2512EE9100556C2A /* Main.storyboard */; };
 		57EFE97F2512EE9300556C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57EFE97E2512EE9300556C2A /* Assets.xcassets */; };
 		57EFE9822512EE9300556C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EFE9802512EE9300556C2A /* LaunchScreen.storyboard */; };
 		57EFE98D2512EE9300556C2A /* CartionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFE98C2512EE9300556C2A /* CartionTests.swift */; };
 		57EFE9982512EE9300556C2A /* CartionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFE9972512EE9300556C2A /* CartionUITests.swift */; };
+		57F7ACD1259B182B0077E054 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7ACD0259B182B0077E054 /* MoreViewController.swift */; };
+		57FA58AB2570850A00ECC074 /* CT_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57FA58AA2570850A00ECC074 /* CT_1.wav */; };
+		57FA58B02570872B00ECC074 /* CT_PCM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57FA58AF2570872B00ECC074 /* CT_PCM.wav */; };
+		746D241EA1B992FCF1D20BA6 /* Pods_CartionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB1A03F1C955EBD8F2E3A3D /* Pods_CartionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +81,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A29C09BDB25D47C1B74CD27 /* Pods-Cartion-CartionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartion-CartionUITests.release.xcconfig"; path = "Target Support Files/Pods-Cartion-CartionUITests/Pods-Cartion-CartionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C76A99B7366186D9620DC67 /* Pods-Cartion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartion.debug.xcconfig"; path = "Target Support Files/Pods-Cartion/Pods-Cartion.debug.xcconfig"; sourceTree = "<group>"; };
+		5264082685A1E841EDC48C1C /* Pods-CartionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartionTests.release.xcconfig"; path = "Target Support Files/Pods-CartionTests/Pods-CartionTests.release.xcconfig"; sourceTree = "<group>"; };
+		571B03C225A2BDD30011BFE4 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		571B03C725A2F2B00011BFE4 /* HornViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornViewController.swift; sourceTree = "<group>"; };
+		571B03D825A414920011BFE4 /* Horn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horn.swift; sourceTree = "<group>"; };
+		571B03DD25A4BB050011BFE4 /* scd8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd8.otf; path = ../fonts/scd8.otf; sourceTree = "<group>"; };
+		571B03DE25A4BB050011BFE4 /* scd5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd5.otf; path = ../fonts/scd5.otf; sourceTree = "<group>"; };
+		571B03DF25A4BB050011BFE4 /* scd9.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd9.otf; path = ../fonts/scd9.otf; sourceTree = "<group>"; };
+		571B03E025A4BB050011BFE4 /* scd7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd7.otf; path = ../fonts/scd7.otf; sourceTree = "<group>"; };
+		571B03E125A4BB050011BFE4 /* scd1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd1.otf; path = ../fonts/scd1.otf; sourceTree = "<group>"; };
+		571B03E225A4BB050011BFE4 /* scd3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd3.otf; path = ../fonts/scd3.otf; sourceTree = "<group>"; };
+		571B03E325A4BB050011BFE4 /* scd4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd4.otf; path = ../fonts/scd4.otf; sourceTree = "<group>"; };
+		571B03E425A4BB050011BFE4 /* scd6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd6.otf; path = ../fonts/scd6.otf; sourceTree = "<group>"; };
+		571B03E525A4BB050011BFE4 /* scd2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = scd2.otf; path = ../fonts/scd2.otf; sourceTree = "<group>"; };
+		571B03F525A735460011BFE4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		571B03FA25A73BC80011BFE4 /* CustomHorn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHorn.swift; sourceTree = "<group>"; };
+		579301D225C5701600CADC16 /* CouponDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDialogController.swift; sourceTree = "<group>"; };
+		579301D725D521FC00CADC16 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = intro.mp4; path = ../../../Desktop/intro.mp4; sourceTree = "<group>"; };
+		579301DC25D5222D00CADC16 /* IntroVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVideoController.swift; sourceTree = "<group>"; };
+		579301E125D63F4100CADC16 /* AppInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoController.swift; sourceTree = "<group>"; };
+		579301FB25D8EF9E00CADC16 /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		579D9CED259C2D1B00371F53 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		57AE452B25A85BBB0011E8BF /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		57AE453825ABF29F0011E8BF /* AppManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManual.swift; sourceTree = "<group>"; };
+		57AE453D25ABF4CF0011E8BF /* AppManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManualViewController.swift; sourceTree = "<group>"; };
+		57AE454225AC35700011E8BF /* CartionInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartionInfoViewController.swift; sourceTree = "<group>"; };
+		57AE454725AC37ED0011E8BF /* CartionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartionInfo.swift; sourceTree = "<group>"; };
+		57AE454C25AD3B970011E8BF /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		57AE455125AFE0900011E8BF /* MobileSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileSwitch.swift; sourceTree = "<group>"; };
+		57AE455625B168220011E8BF /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		57C123F4254157CC00907B42 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		57C123F92541655500907B42 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		57C18CD125B4ADE1000D6BA5 /* SafeDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDialogViewController.swift; sourceTree = "<group>"; };
+		57C18CD625B4B269000D6BA5 /* LostDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostDialogViewController.swift; sourceTree = "<group>"; };
+		57C18CE325B6D6F5000D6BA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		57C18D0E25B6E5EC000D6BA5 /* SignUpCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCheck.swift; sourceTree = "<group>"; };
+		57C18D2425B74BF1000D6BA5 /* SwitchChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchChange.swift; sourceTree = "<group>"; };
+		57C18D2C25B7564A000D6BA5 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		57C18D3125B75DA9000D6BA5 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		57C18D3625B7630B000D6BA5 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		57CC100A255B672900F60C99 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		57CC100F255B69F400F60C99 /* UserAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthViewController.swift; sourceTree = "<group>"; };
 		57EFE9702512EE9100556C2A /* Cartion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cartion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57EFE9732512EE9100556C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57EFE9752512EE9100556C2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57EFE9772512EE9100556C2A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		57EFE9792512EE9100556C2A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		57EFE9772512EE9100556C2A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		57EFE97C2512EE9100556C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57EFE97E2512EE9300556C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57EFE9812512EE9300556C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +138,15 @@
 		57EFE9932512EE9300556C2A /* CartionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57EFE9972512EE9300556C2A /* CartionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartionUITests.swift; sourceTree = "<group>"; };
 		57EFE9992512EE9300556C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F7ACD0259B182B0077E054 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		57FA58AA2570850A00ECC074 /* CT_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CT_1.wav; path = ../../../Downloads/CT_1.wav; sourceTree = "<group>"; };
+		57FA58AF2570872B00ECC074 /* CT_PCM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CT_PCM.wav; path = ../../../Downloads/CT_PCM.wav; sourceTree = "<group>"; };
+		5A845525A4A69DAD71B787B0 /* Pods_Cartion_CartionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartion_CartionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824A613175C51979951B42F9 /* Pods-Cartion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartion.release.xcconfig"; path = "Target Support Files/Pods-Cartion/Pods-Cartion.release.xcconfig"; sourceTree = "<group>"; };
+		8BB1A03F1C955EBD8F2E3A3D /* Pods_CartionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CartionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99A972AD5C580CB5BC0930C /* Pods_Cartion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6A9EC39319D5E8D31025EE /* Pods-CartionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartionTests.debug.xcconfig"; path = "Target Support Files/Pods-CartionTests/Pods-CartionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E94B5C2D5535CBB55C6B154E /* Pods-Cartion-CartionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartion-CartionUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cartion-CartionUITests/Pods-Cartion-CartionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318B44268DCB9349EF943A70 /* Pods_Cartion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746D241EA1B992FCF1D20BA6 /* Pods_CartionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47513361F59E47824823F453 /* Pods_Cartion_CartionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +184,8 @@
 				57EFE98B2512EE9300556C2A /* CartionTests */,
 				57EFE9962512EE9300556C2A /* CartionUITests */,
 				57EFE9712512EE9100556C2A /* Products */,
+				6416E5D0C846F40D59315BD3 /* Pods */,
+				DDA088C7CC20264A6AD40069 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +202,56 @@
 		57EFE9722512EE9100556C2A /* Cartion */ = {
 			isa = PBXGroup;
 			children = (
+				571B03E125A4BB050011BFE4 /* scd1.otf */,
+				571B03E525A4BB050011BFE4 /* scd2.otf */,
+				571B03E225A4BB050011BFE4 /* scd3.otf */,
+				571B03E325A4BB050011BFE4 /* scd4.otf */,
+				571B03DE25A4BB050011BFE4 /* scd5.otf */,
+				571B03E425A4BB050011BFE4 /* scd6.otf */,
+				571B03E025A4BB050011BFE4 /* scd7.otf */,
+				571B03DD25A4BB050011BFE4 /* scd8.otf */,
+				571B03DF25A4BB050011BFE4 /* scd9.otf */,
+				579301D725D521FC00CADC16 /* intro.mp4 */,
 				57EFE9732512EE9100556C2A /* AppDelegate.swift */,
 				57EFE9752512EE9100556C2A /* SceneDelegate.swift */,
-				57EFE9772512EE9100556C2A /* FirstViewController.swift */,
-				57EFE9792512EE9100556C2A /* SecondViewController.swift */,
+				57EFE9772512EE9100556C2A /* HomeController.swift */,
 				57EFE97B2512EE9100556C2A /* Main.storyboard */,
 				57EFE97E2512EE9300556C2A /* Assets.xcassets */,
 				57EFE9802512EE9300556C2A /* LaunchScreen.storyboard */,
 				57EFE9832512EE9300556C2A /* Info.plist */,
+				57C123F4254157CC00907B42 /* LoginViewController.swift */,
+				57C123F92541655500907B42 /* Login.swift */,
+				57CC100A255B672900F60C99 /* SignUpViewController.swift */,
+				57CC100F255B69F400F60C99 /* UserAuthViewController.swift */,
+				57FA58AA2570850A00ECC074 /* CT_1.wav */,
+				57FA58AF2570872B00ECC074 /* CT_PCM.wav */,
+				57F7ACD0259B182B0077E054 /* MoreViewController.swift */,
+				579D9CED259C2D1B00371F53 /* User.swift */,
+				571B03C225A2BDD30011BFE4 /* Banner.swift */,
+				571B03C725A2F2B00011BFE4 /* HornViewController.swift */,
+				571B03D825A414920011BFE4 /* Horn.swift */,
+				571B03F525A735460011BFE4 /* Category.swift */,
+				571B03FA25A73BC80011BFE4 /* CustomHorn.swift */,
+				57AE452B25A85BBB0011E8BF /* FAQViewController.swift */,
+				57AE453825ABF29F0011E8BF /* AppManual.swift */,
+				57AE453D25ABF4CF0011E8BF /* AppManualViewController.swift */,
+				57AE454225AC35700011E8BF /* CartionInfoViewController.swift */,
+				57AE454725AC37ED0011E8BF /* CartionInfo.swift */,
+				57AE454C25AD3B970011E8BF /* MyPageViewController.swift */,
+				57AE455125AFE0900011E8BF /* MobileSwitch.swift */,
+				57AE455625B168220011E8BF /* UserInfo.swift */,
+				57C18CD125B4ADE1000D6BA5 /* SafeDialogViewController.swift */,
+				57C18CD625B4B269000D6BA5 /* LostDialogViewController.swift */,
+				57C18CE325B6D6F5000D6BA5 /* GoogleService-Info.plist */,
+				57C18D0E25B6E5EC000D6BA5 /* SignUpCheck.swift */,
+				57C18D2425B74BF1000D6BA5 /* SwitchChange.swift */,
+				57C18D2C25B7564A000D6BA5 /* Notice.swift */,
+				57C18D3125B75DA9000D6BA5 /* FAQ.swift */,
+				57C18D3625B7630B000D6BA5 /* NoticeViewController.swift */,
+				579301D225C5701600CADC16 /* CouponDialogController.swift */,
+				579301DC25D5222D00CADC16 /* IntroVideoController.swift */,
+				579301E125D63F4100CADC16 /* AppInfoController.swift */,
+				579301FB25D8EF9E00CADC16 /* Coupon.swift */,
 			);
 			path = Cartion;
 			sourceTree = "<group>";
@@ -131,6 +274,29 @@
 			path = CartionUITests;
 			sourceTree = "<group>";
 		};
+		6416E5D0C846F40D59315BD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C76A99B7366186D9620DC67 /* Pods-Cartion.debug.xcconfig */,
+				824A613175C51979951B42F9 /* Pods-Cartion.release.xcconfig */,
+				E94B5C2D5535CBB55C6B154E /* Pods-Cartion-CartionUITests.debug.xcconfig */,
+				2A29C09BDB25D47C1B74CD27 /* Pods-Cartion-CartionUITests.release.xcconfig */,
+				CB6A9EC39319D5E8D31025EE /* Pods-CartionTests.debug.xcconfig */,
+				5264082685A1E841EDC48C1C /* Pods-CartionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDA088C7CC20264A6AD40069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99A972AD5C580CB5BC0930C /* Pods_Cartion.framework */,
+				5A845525A4A69DAD71B787B0 /* Pods_Cartion_CartionUITests.framework */,
+				8BB1A03F1C955EBD8F2E3A3D /* Pods_CartionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57EFE99C2512EE9300556C2A /* Build configuration list for PBXNativeTarget "Cartion" */;
 			buildPhases = (
+				5E7BE3EE7B03DC28373C9B86 /* [CP] Check Pods Manifest.lock */,
 				57EFE96C2512EE9100556C2A /* Sources */,
 				57EFE96D2512EE9100556C2A /* Frameworks */,
 				57EFE96E2512EE9100556C2A /* Resources */,
+				1A3014999DDFD52691FDDBB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57EFE99F2512EE9300556C2A /* Build configuration list for PBXNativeTarget "CartionTests" */;
 			buildPhases = (
+				2F1F00E92504516E98A5BE97 /* [CP] Check Pods Manifest.lock */,
 				57EFE9842512EE9300556C2A /* Sources */,
 				57EFE9852512EE9300556C2A /* Frameworks */,
 				57EFE9862512EE9300556C2A /* Resources */,
@@ -173,9 +342,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57EFE9A22512EE9300556C2A /* Build configuration list for PBXNativeTarget "CartionUITests" */;
 			buildPhases = (
+				32E5A1F524D373A13D7FEBE0 /* [CP] Check Pods Manifest.lock */,
 				57EFE98F2512EE9300556C2A /* Sources */,
 				57EFE9902512EE9300556C2A /* Frameworks */,
 				57EFE9912512EE9300556C2A /* Resources */,
+				A603184B32CD62B49CD005FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +406,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571B03EA25A4BB050011BFE4 /* scd1.otf in Resources */,
+				571B03EC25A4BB050011BFE4 /* scd4.otf in Resources */,
+				57C18CE425B6D6F5000D6BA5 /* GoogleService-Info.plist in Resources */,
 				57EFE9822512EE9300556C2A /* LaunchScreen.storyboard in Resources */,
+				579301D825D521FC00CADC16 /* intro.mp4 in Resources */,
+				571B03E625A4BB050011BFE4 /* scd8.otf in Resources */,
+				571B03E825A4BB050011BFE4 /* scd9.otf in Resources */,
+				571B03E725A4BB050011BFE4 /* scd5.otf in Resources */,
+				571B03E925A4BB050011BFE4 /* scd7.otf in Resources */,
+				57FA58B02570872B00ECC074 /* CT_PCM.wav in Resources */,
 				57EFE97F2512EE9300556C2A /* Assets.xcassets in Resources */,
 				57EFE97D2512EE9100556C2A /* Main.storyboard in Resources */,
+				571B03ED25A4BB050011BFE4 /* scd6.otf in Resources */,
+				571B03EE25A4BB050011BFE4 /* scd2.otf in Resources */,
+				571B03EB25A4BB050011BFE4 /* scd3.otf in Resources */,
+				57FA58AB2570850A00ECC074 /* CT_1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +441,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A3014999DDFD52691FDDBB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cartion/Pods-Cartion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cartion/Pods-Cartion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cartion/Pods-Cartion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F1F00E92504516E98A5BE97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CartionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32E5A1F524D373A13D7FEBE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cartion-CartionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E7BE3EE7B03DC28373C9B86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cartion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A603184B32CD62B49CD005FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cartion-CartionUITests/Pods-Cartion-CartionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cartion-CartionUITests/Pods-Cartion-CartionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cartion-CartionUITests/Pods-Cartion-CartionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57EFE96C2512EE9100556C2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57EFE97A2512EE9100556C2A /* SecondViewController.swift in Sources */,
-				57EFE9782512EE9100556C2A /* FirstViewController.swift in Sources */,
+				571B03D925A414920011BFE4 /* Horn.swift in Sources */,
+				571B03FB25A73BC80011BFE4 /* CustomHorn.swift in Sources */,
+				57F7ACD1259B182B0077E054 /* MoreViewController.swift in Sources */,
+				579301E225D63F4100CADC16 /* AppInfoController.swift in Sources */,
+				57AE454825AC37ED0011E8BF /* CartionInfo.swift in Sources */,
+				57C18D3225B75DA9000D6BA5 /* FAQ.swift in Sources */,
+				579301DD25D5222D00CADC16 /* IntroVideoController.swift in Sources */,
+				57AE455225AFE0900011E8BF /* MobileSwitch.swift in Sources */,
+				57AE452C25A85BBB0011E8BF /* FAQViewController.swift in Sources */,
+				57CC100B255B672900F60C99 /* SignUpViewController.swift in Sources */,
+				57C18CD225B4ADE1000D6BA5 /* SafeDialogViewController.swift in Sources */,
+				57EFE9782512EE9100556C2A /* HomeController.swift in Sources */,
+				571B03C325A2BDD30011BFE4 /* Banner.swift in Sources */,
+				57AE453E25ABF4CF0011E8BF /* AppManualViewController.swift in Sources */,
+				571B03C825A2F2B00011BFE4 /* HornViewController.swift in Sources */,
+				57AE454325AC35700011E8BF /* CartionInfoViewController.swift in Sources */,
 				57EFE9742512EE9100556C2A /* AppDelegate.swift in Sources */,
+				57AE453925ABF29F0011E8BF /* AppManual.swift in Sources */,
+				57C123FA2541655500907B42 /* Login.swift in Sources */,
+				57C18D3725B7630B000D6BA5 /* NoticeViewController.swift in Sources */,
+				57C123F5254157CC00907B42 /* LoginViewController.swift in Sources */,
+				57C18D2525B74BF2000D6BA5 /* SwitchChange.swift in Sources */,
+				57AE454D25AD3B970011E8BF /* MyPageViewController.swift in Sources */,
+				579301D325C5701600CADC16 /* CouponDialogController.swift in Sources */,
+				57C18CD725B4B269000D6BA5 /* LostDialogViewController.swift in Sources */,
+				571B03F625A735460011BFE4 /* Category.swift in Sources */,
+				57C18D2D25B7564A000D6BA5 /* Notice.swift in Sources */,
+				579301FC25D8EF9E00CADC16 /* Coupon.swift in Sources */,
 				57EFE9762512EE9100556C2A /* SceneDelegate.swift in Sources */,
+				579D9CEE259C2D1B00371F53 /* User.swift in Sources */,
+				57AE455725B168220011E8BF /* UserInfo.swift in Sources */,
+				57CC1010255B69F400F60C99 /* UserAuthViewController.swift in Sources */,
+				57C18D0F25B6E5EC000D6BA5 /* SignUpCheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,10 +752,13 @@
 		};
 		57EFE99D2512EE9300556C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C76A99B7366186D9620DC67 /* Pods-Cartion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLUF3C6T5U;
 				INFOPLIST_FILE = Cartion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,16 +766,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.belicon.Cartion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		57EFE99E2512EE9300556C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 824A613175C51979951B42F9 /* Pods-Cartion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLUF3C6T5U;
 				INFOPLIST_FILE = Cartion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,12 +786,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.belicon.Cartion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		57EFE9A02512EE9300556C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6A9EC39319D5E8D31025EE /* Pods-CartionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +814,7 @@
 		};
 		57EFE9A12512EE9300556C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5264082685A1E841EDC48C1C /* Pods-CartionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +836,7 @@
 		};
 		57EFE9A32512EE9300556C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94B5C2D5535CBB55C6B154E /* Pods-Cartion-CartionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +856,7 @@
 		};
 		57EFE9A42512EE9300556C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A29C09BDB25D47C1B74CD27 /* Pods-Cartion-CartionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

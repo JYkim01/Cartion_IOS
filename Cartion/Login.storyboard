@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IT3-xQ-s9q">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SCDream3.otf">
+            <string>S-CoreDream-3Light</string>
+        </array>
+        <array key="SCDream5.otf">
+            <string>S-CoreDream-5Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Euh-nG-1Tm">
+            <objects>
+                <viewController id="IT3-xQ-s9q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JzV-04-7sM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카션은" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EuE-bY-1tc">
+                                <rect key="frame" x="126" y="215" width="43.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-3Light" family="S-Core Dream" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="세상에 없던" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mjl-wx-14w">
+                                <rect key="frame" x="171.5" y="215" width="76.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-5Medium" family="S-Core Dream" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="서비스를 제공합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gb1-8J-ZCs">
+                                <rect key="frame" x="118.5" y="235.5" width="138.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-3Light" family="S-Core Dream" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-MALE" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jkf-T3-fCo">
+                                <rect key="frame" x="70" y="383" width="235" height="34"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-3Light" family="S-Core Dream" pointSize="10"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NvV-39-cii">
+                                <rect key="frame" x="70" y="425" width="235" height="34"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-3Light" family="S-Core Dream" pointSize="10"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UD1-Vz-hiI">
+                                <rect key="frame" x="70" y="467" width="235" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-5Medium" family="S-Core Dream" pointSize="12"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" red="0.49803921568627452" green="0.26666666666666666" blue="0.65098039215686276" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wTQ-rM-H8g">
+                                <rect key="frame" x="66" y="563" width="243" height="1"/>
+                                <color key="backgroundColor" white="1" alpha="0.69550506161971826" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="d2J-do-Ico"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아직 회원이 아니신가요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPd-gt-wKa">
+                                <rect key="frame" x="103.5" y="574" width="118.5" height="13"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-3Light" family="S-Core Dream" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="0.69550506160000003" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="회원가입" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EST-Hw-r73">
+                                <rect key="frame" x="227" y="573.5" width="46.5" height="14"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-5Medium" family="S-Core Dream" pointSize="12"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.2666666667" blue="0.65098039220000004" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ya7-tI-SdM">
+                                <rect key="frame" x="152.5" y="120" width="70" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="5I6-Ah-f99"/>
+                                    <constraint firstAttribute="width" constant="70" id="W28-Gr-Xr8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnP-Xi-lXs">
+                                <rect key="frame" x="217" y="501" width="88" height="22"/>
+                                <fontDescription key="fontDescription" name="S-CoreDream-5Medium" family="S-Core Dream" pointSize="8"/>
+                                <state key="normal" title="Forgot your password?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dnP-Xi-lXs" firstAttribute="top" secondItem="UD1-Vz-hiI" secondAttribute="bottom" constant="8" id="75k-Aa-dAp"/>
+                            <constraint firstItem="E8s-S8-RM7" firstAttribute="bottom" secondItem="YPd-gt-wKa" secondAttribute="bottom" constant="80" id="9F9-He-Ty8"/>
+                            <constraint firstItem="EuE-bY-1tc" firstAttribute="centerX" secondItem="E8s-S8-RM7" secondAttribute="centerX" constant="-40" id="DgF-fm-08h"/>
+                            <constraint firstItem="UD1-Vz-hiI" firstAttribute="leading" secondItem="E8s-S8-RM7" secondAttribute="leading" constant="70" id="F37-U0-PgO"/>
+                            <constraint firstItem="EuE-bY-1tc" firstAttribute="top" secondItem="Ya7-tI-SdM" secondAttribute="bottom" constant="25" id="F9l-CI-2YE"/>
+                            <constraint firstItem="Mjl-wx-14w" firstAttribute="leading" secondItem="EuE-bY-1tc" secondAttribute="trailing" constant="2" id="FgT-rN-Xub"/>
+                            <constraint firstItem="gb1-8J-ZCs" firstAttribute="centerX" secondItem="E8s-S8-RM7" secondAttribute="centerX" id="GkB-Or-9Nx"/>
+                            <constraint firstItem="Ya7-tI-SdM" firstAttribute="top" secondItem="E8s-S8-RM7" secondAttribute="top" constant="120" id="J1j-CV-nvk"/>
+                            <constraint firstItem="jkf-T3-fCo" firstAttribute="leading" secondItem="E8s-S8-RM7" secondAttribute="leading" constant="70" id="JCh-1e-U1o"/>
+                            <constraint firstItem="EST-Hw-r73" firstAttribute="centerY" secondItem="YPd-gt-wKa" secondAttribute="centerY" id="JNV-ia-F4u"/>
+                            <constraint firstItem="NvV-39-cii" firstAttribute="leading" secondItem="E8s-S8-RM7" secondAttribute="leading" constant="70" id="Kc0-dy-XED"/>
+                            <constraint firstItem="UD1-Vz-hiI" firstAttribute="top" secondItem="NvV-39-cii" secondAttribute="bottom" constant="8" id="OPA-nQ-G1H"/>
+                            <constraint firstItem="wTQ-rM-H8g" firstAttribute="top" secondItem="dnP-Xi-lXs" secondAttribute="bottom" constant="40" id="Qlj-hA-gZM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wTQ-rM-H8g" secondAttribute="trailing" constant="50" id="TiP-nr-FcT"/>
+                            <constraint firstItem="E8s-S8-RM7" firstAttribute="trailing" secondItem="jkf-T3-fCo" secondAttribute="trailing" constant="70" id="TtI-CI-SUD"/>
+                            <constraint firstItem="YPd-gt-wKa" firstAttribute="top" secondItem="wTQ-rM-H8g" secondAttribute="bottom" constant="10" id="Vh4-AB-g26"/>
+                            <constraint firstItem="Ya7-tI-SdM" firstAttribute="centerX" secondItem="E8s-S8-RM7" secondAttribute="centerX" id="Vj7-xb-Yxk"/>
+                            <constraint firstItem="YPd-gt-wKa" firstAttribute="centerX" secondItem="JzV-04-7sM" secondAttribute="centerX" constant="-25" id="Wf9-l5-4F8"/>
+                            <constraint firstItem="Mjl-wx-14w" firstAttribute="centerY" secondItem="EuE-bY-1tc" secondAttribute="centerY" id="XBY-Vt-XGw"/>
+                            <constraint firstItem="NvV-39-cii" firstAttribute="top" secondItem="jkf-T3-fCo" secondAttribute="bottom" constant="8" id="Yej-Oa-Cix"/>
+                            <constraint firstItem="E8s-S8-RM7" firstAttribute="trailing" secondItem="NvV-39-cii" secondAttribute="trailing" constant="70" id="dwk-Lb-58V"/>
+                            <constraint firstItem="E8s-S8-RM7" firstAttribute="trailing" secondItem="UD1-Vz-hiI" secondAttribute="trailing" constant="70" id="dxc-7M-WmH"/>
+                            <constraint firstItem="wTQ-rM-H8g" firstAttribute="leading" secondItem="JzV-04-7sM" secondAttribute="leadingMargin" constant="50" id="lfa-CV-kup"/>
+                            <constraint firstItem="EST-Hw-r73" firstAttribute="leading" secondItem="YPd-gt-wKa" secondAttribute="trailing" constant="5" id="lkS-n9-k3v"/>
+                            <constraint firstItem="E8s-S8-RM7" firstAttribute="trailing" secondItem="dnP-Xi-lXs" secondAttribute="trailing" constant="70" id="swP-nP-DBa"/>
+                            <constraint firstItem="gb1-8J-ZCs" firstAttribute="top" secondItem="EuE-bY-1tc" secondAttribute="bottom" constant="3" id="zHU-7x-4Pt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="E8s-S8-RM7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTj-ye-d3F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
